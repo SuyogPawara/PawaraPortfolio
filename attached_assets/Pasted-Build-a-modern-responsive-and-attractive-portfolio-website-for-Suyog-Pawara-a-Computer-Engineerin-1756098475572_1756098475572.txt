@@ -1,0 +1,47 @@
+Build a modern, responsive, and attractive portfolio website for Suyog Pawara, a Computer Engineering graduate and Java Full Stack Developer. The site should use HTML, CSS, JavaScript, and a TypeScript framework (React or Angular) for interactivity and responsiveness.
+
+Sections to Include:
+
+Header / Navigation Bar: Sticky top navigation with smooth scroll to sections. Include links to Home, About, Skills, Projects, Certificates, and Contact.
+
+Hero Section: A professional introduction with name “Suyog Pawara – Java Full Stack Developer”, a short tagline, and a "Download Resume" button. Add a background animation or gradient effect for attractiveness.
+
+About Section: Short bio with education details (B.Tech & Diploma) and career interests.
+
+Skills Section: Interactive skill cards showing Languages (Java, JavaScript, SQL, HTML/CSS), Frameworks (Spring Boot, Hibernate, .NET), Databases (MySQL), Tools/IDEs (VS Code, IntelliJ, Eclipse), and Soft Skills. Use animated progress bars or icons.
+
+Projects Section: Showcase projects from resume with cards containing project title, short description, tech stack, and GitHub repo links. Projects include:
+
+Mobile Recharge Management System
+
+Hospital Management System
+
+Bank Management System
+
+Food Image Recognition (CNN Project)
+
+Certificates Section: Display certificate cards with hover effects linking to GitHub certificate files.
+
+Contact Section: Contact form with fields (Name, Email, Message) + social media links (LinkedIn, GitHub, Email). Add an animated footer with copyright.
+
+Design Requirements:
+
+Use a clean, modern UI with responsive grid/flex layouts.
+
+Dark/light theme toggle option.
+
+Smooth hover effects and scroll animations.
+
+Use TypeScript framework for form validation, filtering projects, and dynamic content rendering.
+
+Fully responsive (desktop, tablet, mobile).
+
+Extras:
+
+Add typing animation in the hero tagline (e.g., “Java Full Stack Developer | Problem Solver | Tech Enthusiast”).
+
+Implement project filter/search by technology (e.g., Java, JDBC, Spring Boot).
+
+Integrate EmailJS or similar for functional contact form.
+
+Add favicon and custom logo with initials SP.
