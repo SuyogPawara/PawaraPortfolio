@@ -1,6 +1,8 @@
 import { Download, User, ChevronDown } from 'lucide-react';
 import { useTypingAnimation } from '@/hooks/useTypingAnimation';
 import { Button } from '@/components/ui/button';
+import profilePic from './SuyogCrop.jpg';
+
 
 export default function Hero() {
   const typingText = useTypingAnimation({
@@ -45,16 +47,17 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8 animate-slide-up">
           {/* Professional Image */}
-          <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-violet-500 p-1 animate-glow">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300" 
+            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-violet-500 p-1 animate-glow">
+           <img 
+             // src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+             src={profilePic}
               alt="Suyog Pawara - Professional Developer" 
               className="w-full h-full rounded-full object-cover"
             />
           </div>
 
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-violet-600 to-cyan-600 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl lg:tec:\Myphotos\Suyog.jpgxt-7xl font-bold bg-gradient-to-r from-blue-600 via-violet-600 to-cyan-600 bg-clip-text text-transparent">
               Suyog Pawara
             </h1>
             

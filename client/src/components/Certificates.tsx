@@ -8,7 +8,7 @@ const certificatesData: Certificate[] = [
     issuer: 'Oracle Certified Associate',
     year: '2023',
     description: 'Comprehensive certification covering core Java concepts, object-oriented programming, and best practices.',
-    url: 'https://github.com/suyogpawara/certificates/java-certification',
+    url: 'https://github.com/SuyogPawara/Certificates/blob/main/Suyog%20Pawara.pdf',
     icon: 'award',
   },
   {
@@ -17,7 +17,7 @@ const certificatesData: Certificate[] = [
     issuer: 'MySQL Professional Certification',
     year: '2023',
     description: 'Advanced database design, optimization, and administration skills with MySQL technologies.',
-    url: 'https://github.com/suyogpawara/certificates/mysql-certification',
+    url: 'https://github.com/SuyogPawara/Certificates/blob/main/SQL%20for%20Data%20Analysis.jpeg',
     icon: 'database',
   },
   {
@@ -26,7 +26,7 @@ const certificatesData: Certificate[] = [
     issuer: 'Spring Boot Specialization',
     year: '2024',
     description: 'Complete mastery of Spring Boot framework for building enterprise-grade applications.',
-    url: 'https://github.com/suyogpawara/certificates/spring-boot-certification',
+    url: 'https://github.com/SuyogPawara/Certificates/blob/main/Suyog%20Pawara.pdf',
     icon: 'code',
   },
   {
@@ -35,7 +35,7 @@ const certificatesData: Certificate[] = [
     issuer: 'Deep Learning Specialization',
     year: '2024',
     description: 'Advanced neural networks and deep learning algorithms for computer vision applications.',
-    url: 'https://github.com/suyogpawara/certificates/ml-certification',
+    url: 'https://github.com/SuyogPawara/Food-Image-Recognition',
     icon: 'brain',
   },
   {
@@ -44,7 +44,7 @@ const certificatesData: Certificate[] = [
     issuer: 'Modern Frontend Technologies',
     year: '2023',
     description: 'Comprehensive training in React, TypeScript, and modern web development practices.',
-    url: 'https://github.com/suyogpawara/certificates/web-dev-certification',
+    url: 'https://github.com/SuyogPawara/Certificates/blob/main/Implant%20Training.pdf',
     icon: 'globe',
   },
   {
@@ -53,14 +53,14 @@ const certificatesData: Certificate[] = [
     issuer: 'Best Practices Certification',
     year: '2024',
     description: 'Industry best practices for software design, testing, and deployment methodologies.',
-    url: 'https://github.com/suyogpawara/certificates/software-engineering',
+    url: 'https://github.com/SuyogPawara/Certificates/blob/main/Suyog%20Pawara.pdf',
     icon: 'shield',
   },
 ];
 
 function getIcon(iconName: string) {
   const iconProps = { className: "w-8 h-8 text-white" };
-  
+
   switch (iconName) {
     case 'award': return <Award {...iconProps} />;
     case 'database': return <Database {...iconProps} />;
@@ -115,8 +115,10 @@ export default function Certificates() {
               </div>
               <div className="flex justify-between items-center pt-4 border-t border-gray-200 dark:border-gray-700">
                 <span className="text-sm text-gray-500 dark:text-gray-400">{certificate.year}</span>
-                <a 
+                <a
                   href={certificate.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-200"
                   data-testid={`certificate-link-${certificate.id}`}
                 >

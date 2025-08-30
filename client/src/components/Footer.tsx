@@ -16,7 +16,7 @@ export default function Footer() {
     { icon: <Linkedin className="w-5 h-5" />, url: 'https://linkedin.com/in/suyogpawara', testId: 'footer-linkedin' },
     { icon: <Github className="w-5 h-5" />, url: 'https://github.com/suyogpawara', testId: 'footer-github' },
     { icon: <Twitter className="w-5 h-5" />, url: 'https://twitter.com/suyogpawara', testId: 'footer-twitter' },
-    { icon: <Mail className="w-5 h-5" />, url: 'mailto:suyog.pawara@example.com', testId: 'footer-email' },
+    { icon: <Mail className="w-5 h-5" />, url: 'mailto:suyogpawara04@gmail.com', testId: 'footer-email' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -65,8 +65,8 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Get in Touch</h3>
             <div className="space-y-2">
-              <p className="text-gray-400">suyog.pawara@example.com</p>
-              <p className="text-gray-400">+91 12345 67890</p>
+              <p className="text-gray-400">suyogpawara04@gmail.com</p>
+              <p className="text-gray-400">+91 9422954028</p>
               <p className="text-gray-400">Maharashtra, India</p>
             </div>
           </div>

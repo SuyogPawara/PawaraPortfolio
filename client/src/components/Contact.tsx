@@ -139,7 +139,7 @@ export default function Contact() {
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      url: 'mailto:suyog.pawara@example.com',
+      url: 'mailto:suyogpawara04.com',
       bgColor: 'bg-red-600 hover:bg-red-700',
       testId: 'social-email',
     },
@@ -247,7 +247,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Email</h4>
-                    <p className="text-gray-600 dark:text-gray-300" data-testid="contact-email">suyog.pawara@example.com</p>
+                    <p className="text-gray-600 dark:text-gray-300" data-testid="contact-email">suyogpawara04@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -256,7 +256,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
-                    <p className="text-gray-600 dark:text-gray-300" data-testid="contact-phone">+91 12345 67890</p>
+                    <p className="text-gray-600 dark:text-gray-300" data-testid="contact-phone">+91 9422954028</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">

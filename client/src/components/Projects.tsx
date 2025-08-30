@@ -11,7 +11,7 @@ const projectsData: Project[] = [
     technologies: ['Java', 'Spring Boot', 'MySQL', 'HTML/CSS'],
     tags: ['java', 'spring', 'web'],
     image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
-    githubUrl: 'https://github.com/suyogpawara/mobile-recharge-system',
+    githubUrl: 'https://github.com/SuyogPawara/Mobile-Recharge-Management-System',
     liveUrl: '#',
     category: 'web',
   },
@@ -21,8 +21,8 @@ const projectsData: Project[] = [
     description: 'Enterprise-grade healthcare management solution featuring patient records, appointment scheduling, inventory management, and staff coordination modules.',
     technologies: ['Java', 'Spring Boot', 'Hibernate', 'MySQL'],
     tags: ['java', 'spring', 'web'],
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
-    githubUrl: 'https://github.com/suyogpawara/hospital-management',
+    image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80",
+    githubUrl: 'https://github.com/SuyogPawara/HospitalManagementSystem',
     liveUrl: '#',
     category: 'enterprise',
   },
@@ -33,7 +33,7 @@ const projectsData: Project[] = [
     technologies: ['Java', 'Spring Boot', 'Spring Security', 'MySQL'],
     tags: ['java', 'spring', 'web'],
     image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
-    githubUrl: 'https://github.com/suyogpawara/bank-management',
+    githubUrl: 'https://github.com/SuyogPawara/Bank-Management-System',
     liveUrl: '#',
     category: 'enterprise',
   },
@@ -44,7 +44,7 @@ const projectsData: Project[] = [
     technologies: ['Python', 'TensorFlow', 'CNN', 'OpenCV'],
     tags: ['ml', 'java', 'web'],
     image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
-    githubUrl: 'https://github.com/suyogpawara/food-recognition-cnn',
+    githubUrl: 'https://github.com/SuyogPawara/Food-Image-Recognition',
     liveUrl: '#',
     category: 'ml',
   },
@@ -61,7 +61,7 @@ const filterButtons = [
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
 
-  const filteredProjects = projectsData.filter(project => 
+  const filteredProjects = projectsData.filter(project =>
     activeFilter === 'all' || project.tags.includes(activeFilter)
   );
 
@@ -83,11 +83,10 @@ export default function Projects() {
               key={button.value}
               onClick={() => setActiveFilter(button.value)}
               variant={activeFilter === button.value ? "default" : "outline"}
-              className={`px-6 py-2 rounded-full transition-colors duration-200 ${
-                activeFilter === button.value
+              className={`px-6 py-2 rounded-full transition-colors duration-200 ${activeFilter === button.value
                   ? 'bg-blue-600 text-white hover:bg-blue-700'
                   : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-              }`}
+                }`}
               data-testid={`filter-${button.value}`}
             >
               {button.label}
@@ -104,7 +103,7 @@ export default function Projects() {
               data-testid={`project-card-${project.id}`}
             >
               <div className="h-48 relative overflow-hidden">
-                <img 
+                <img
                   src={project.image}
                   alt={`${project.title} workspace`}
                   className="w-full h-full object-cover"
@@ -113,8 +112,8 @@ export default function Projects() {
                 <div className="absolute top-4 right-4">
                   <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">
                     {project.category === 'web' ? 'Web Application' :
-                     project.category === 'enterprise' ? 'Enterprise System' :
-                     project.category === 'ml' ? 'AI/ML Project' : 'Mobile App'}
+                      project.category === 'enterprise' ? 'Enterprise System' :
+                        project.category === 'ml' ? 'AI/ML Project' : 'Mobile App'}
                   </span>
                 </div>
               </div>
@@ -125,24 +124,25 @@ export default function Projects() {
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
-                    <span 
+                    <span
                       key={tech}
-                      className={`px-3 py-1 rounded-full text-sm ${
-                        tech === 'Java' ? 'bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200' :
-                        tech === 'Spring Boot' ? 'bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200' :
-                        tech === 'MySQL' ? 'bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200' :
-                        tech === 'Python' ? 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200' :
-                        tech === 'TensorFlow' ? 'bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200' :
-                        'bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200'
-                      }`}
+                      className={`px-3 py-1 rounded-full text-sm ${tech === 'Java' ? 'bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200' :
+                          tech === 'Spring Boot' ? 'bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200' :
+                            tech === 'MySQL' ? 'bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200' :
+                              tech === 'Python' ? 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200' :
+                                tech === 'TensorFlow' ? 'bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200' :
+                                  'bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200'
+                        }`}
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
                 <div className="flex justify-between items-center">
-                  <a 
+                  <a
                     href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-200"
                     data-testid={`github-link-${project.id}`}
                   >
@@ -150,8 +150,10 @@ export default function Projects() {
                     View Code
                   </a>
                   {project.liveUrl && (
-                    <a 
+                    <a
                       href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center text-violet-600 hover:text-violet-700 dark:text-violet-400 dark:hover:text-violet-300 transition-colors duration-200"
                       data-testid={`live-demo-${project.id}`}
                     >
