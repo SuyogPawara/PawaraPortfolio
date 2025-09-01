@@ -33,7 +33,7 @@ This portfolio is built with **React + Vite + TailwindCSS** and deployed on **Ve
 ---
 
 ## 📂 Project Structure
-
+```
 PawaraPortfolio/
 │── client/ # Main React app
 │ ├── src/ # Source code
@@ -47,8 +47,11 @@ PawaraPortfolio/
 │── package.json # Dependencies & scripts
 │── README.md # Project documentation
 
-## ⚙️ Installation & Setup
+```
+---
 
+## ⚙️ Installation & Setup
+```
 Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the repository
@@ -79,7 +82,12 @@ npm run build
 
 The production build will be inside the dist/ folder.
 
+```
+---
+
 🚀 Deployment on Vercel
+---
+```
 
 Push your repo to GitHub.
 
@@ -99,10 +107,24 @@ Output Directory: dist
 Add the same .env variables in Vercel dashboard.
 
 Deploy 🎉
+```
+---
 
+📸ScreenShots
+---
+<img width="1897" height="876" alt="Portfoliio" src="https://github.com/user-attachments/assets/5540a1cd-2f45-4ead-a63c-dee50911b1ed" />
+<img width="1902" height="869" alt="Portfolio2" src="https://github.com/user-attachments/assets/99dfe3c4-18ef-4416-9c35-05032d8f0bd8" />
+<img width="1897" height="878" alt="Portfolio3" src="https://github.com/user-attachments/assets/d802a651-dac1-452a-a272-1565397a7213" />
+<img width="1901" height="880" alt="Portfolio4" src="https://github.com/user-attachments/assets/2cd66616-85a6-43ba-af30-d784f6d1cad5" />
 <img width="1904" height="880" alt="Portfolio5" src="https://github.com/user-attachments/assets/9896b4f0-acf3-40b3-99e0-a15ad45ac6d9" />
 
+```
+```
+---
+
 📬 Contact
+---
+```
 
 💼 Connect with me:
 
@@ -111,16 +133,17 @@ LinkedIn: https://www.linkedin.com/in/suyog-pawara/
 GitHub: (https://github.com/SuyogPawara)
 
 Portfolio Website: https://pawara-portfolio.vercel.app/
-
+```
+```
+```
 📜 License
+---
 
 This project is licensed under the MIT License – free to use and modify.
 
 ✨ Thank you for visiting my portfolio repository!
 I’d love to hear your feedback and suggestions.
 
+👉 This README includes everything: live demo link, features, tech stack, setup guide, deployment steps, and contact info. 
+
 ---
-
-👉 This README includes everything: live demo link, features, tech stack, setup guide, deployment steps, and contact info.  
-
-
