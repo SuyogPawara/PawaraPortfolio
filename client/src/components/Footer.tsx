@@ -66,7 +66,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Get in Touch</h3>
             <div className="space-y-2">
               <p className="text-gray-400">suyogpawara04@gmail.com</p>
-              <p className="text-gray-400">+91 9422954028</p>
+              <p className="text-gray-400">+91 1234567890</p>
               <p className="text-gray-400">Maharashtra, India</p>
             </div>
           </div>

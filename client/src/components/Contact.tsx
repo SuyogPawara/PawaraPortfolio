@@ -256,7 +256,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
-                    <p className="text-gray-600 dark:text-gray-300" data-testid="contact-phone">+91 9422954028</p>
+                    <p className="text-gray-600 dark:text-gray-300" data-testid="contact-phone">+91 1234567890</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
